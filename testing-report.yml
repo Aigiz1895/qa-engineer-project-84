@@ -64,6 +64,10 @@
   status: pass
 
 - summary: |
+    Проверка наименований фильтра "Производитель"
+  status: fail
+
+- summary: |
     Проверка работы фильтра "В наличии"
   status: pass
 
