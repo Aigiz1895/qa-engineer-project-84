@@ -1,6 +1,6 @@
 ---
 - summary: |
-    Проверка перехода на страницу "Hexlet Store"
+    Проверка работы ссылки на страницу "Hexlet Store"
   status: pass
 
 - summary: |
