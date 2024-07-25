@@ -11,7 +11,7 @@ bugreports:
       Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
       ОС Windows 10  05.‎24
     steps-to-reproduce: |
-      1. Зайти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
+      1. Открыть страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
     expected-result: |
       При переходе по ссылке, открывается страница интернет магазина
       На странице присутсвтуют изображения товаров, а так же прочие функциональные атрибуты, которые относятся непосредственно к магазину
@@ -69,7 +69,7 @@ bugreports:
       Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
       ОС Windows 10  05.‎24
     steps-to-reproduce: |
-      1. Перейти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
+      1. Открыть страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
       2. Добавить товары в корзину
       3. Перейти в корзину
       4. Нажать кнопку "Очистить корзину"
@@ -116,7 +116,7 @@ bugreports:
       Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
       ОС Windows 10  05.‎24
     steps-to-reproduce: |
-      1. Перейти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
+      1. Открыть страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
       2. Убрать галочку в checkbox в "Наличии"
       3. Применить изменения на всех страницах
     expected-result: |
@@ -139,7 +139,7 @@ bugreports:
       Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
       ОС Windows 10  05.‎24
     steps-to-reproduce: |
-      1. Зайти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
+      1. Открыть страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
       2. Изменить язык на русский
       3. Нажать кнопку "Магазин"
     expected-result: |
@@ -158,7 +158,7 @@ bugreports:
       Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
       ОС Windows 10  05.‎24
     steps-to-reproduce: |
-      1. Зайти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
+      1. Открыть страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
       2. Нажать кнопку "Магазин"
     expected-result: |
       При использовании активных кнопок страница не должна перезагружаться
