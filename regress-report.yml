@@ -40,7 +40,7 @@ test-cases:
     status: fail
   - summary: |
       Корректная форма оформления заказа
-    status: pass
+    status: fail
   - summary: |
       Корректная работа кнопки "Продолжить покупки"
     status: pass
