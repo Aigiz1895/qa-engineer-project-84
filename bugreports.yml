@@ -5,7 +5,7 @@
     Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
     ОС Windows 10  05.‎24
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app
+    1. Открыть страницу https://hexlet-products-store.vercel.app
     2. Нажать на выпадающий список «Язык»
   expected-result: |
     При выборе языка из выпадающего списка обе иконки флага должны отображаться
@@ -18,7 +18,7 @@
     Google Chrome   126.0.6478.186 (Официальная сборка) 
     Android 14
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app через смартфон
+    1. Открыть страницу https://hexlet-products-store.vercel.app через смартфон
     2. Просмотреть все страницы сайта
     3. Проверить всю функциональность сайта
   expected-result: |
@@ -34,7 +34,7 @@
     Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
     ОС Windows 10  05.‎24
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app
+    1. Открыть страницу https://hexlet-products-store.vercel.app
     2. Открыть DevTools, сеть
     3. Добавить заказ в корзину
     4. Перейти в корзину
@@ -50,7 +50,7 @@
     Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
     ОС Windows 10  05.‎24
   steps-to-reproduce: |
-    1. Открыть главную страницу "Hexlet Store"
+    1. Открыть страницу https://hexlet-products-store.vercel.app
     2. Посмотреть наименования в checkbox "Производитель"
   expected-result: |
     При просмотре наименований производителя в checkbox "Производитель", должны присутствовать наименования для всех checkbox
@@ -63,7 +63,7 @@
     Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
     ОС Windows 10  05.‎24
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app
+    1. Открыть страницу https://hexlet-products-store.vercel.app
     2. Добавить заказ в корзину
     3. Перейти в корзину
     4. Нажать на кнопку "Оформить заказ"
@@ -79,7 +79,7 @@
     Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
     ОС Windows 10  05.‎24
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app
+    1. Открыть страницу https://hexlet-products-store.vercel.app
     2. Добавить заказ в корзину
     4. Перейти в корзину
     5. Нажать на кнопку "Оформить заказ"
@@ -94,7 +94,7 @@
     Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
     ОС Windows 10  05.‎24
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app
+    1. Открыть страницу https://hexlet-products-store.vercel.app
     2. Убрать галочку в checkbox "В наличии"
     3. Найти товар которго нет в наличии
     4. Нажать на товар
@@ -110,7 +110,7 @@
     Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
     ОС Windows 10  05.‎24
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app
+    1. Открыть страницу https://hexlet-products-store.vercel.app
     2. Убрать галочку в checkbox "В наличии"
     3. Найти товар которго нет в наличии
     4. Нажать на товар
