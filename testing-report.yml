@@ -1,5 +1,9 @@
 ---
 - summary: |
+    Проверка перехода на страницу "Hexlet Store"
+  status: pass
+
+- summary: |
     Проверка отображения продуктов
   status: pass
 
