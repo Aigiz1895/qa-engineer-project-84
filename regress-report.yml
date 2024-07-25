@@ -3,214 +3,169 @@ test-cases:
   - summary: |
       Корректная работа ссылки
     status: fail
-
+  - summary: |
+      Корректное отображение продуктов на всех страницах
+    status: pass
+  - summary: |
+      Корректная работа кнопок "Следующая" и "Предыдущая"
+    status: pass
+  - summary: >
+      Информация о продукте на странице магазина схожа с информацией о
+      продукте при открытии продукта
+    status: pass
+  - summary: |
+      Корректная работа добавления продукта в корзину
+    status: pass
+  - summary: |
+      Добавление выше указанного количества продукта в корзину
+    status: pass
+  - summary: >
+      Проверить, что цена и скидка товара идентична при переходе в сам товар
+      и присутствует рейтинг товара
+    status: pass
+  - summary: |
+      Корректная работа перехода в корзину
+    status: pass
+  - summary: |
+      Корректная работа добавления всех товаров в корзину
+    status: pass
+  - summary: |
+      Корректная работа отображения цен и скидки для всех продуктов
+    status: pass
+  - summary: |
+      Корректная работа удаления продукта из корзины
+    status: pass
+  - summary: |
+      Корректная работа очистки продуктов из корзины
+    status: fail
+  - summary: |
+      Корректная форма оформления заказа
+    status: pass
+  - summary: |
+      Корректная работа кнопки "Продолжить покупки"
+    status: pass
+  - summary: |
+      Корректная работа поиска продуктов
+    status: pass
+  - summary: |
+      Корректная работа фильтра "Категории"
+    status: pass
+  - summary: |
+      Корректная работа фильтра "Производитель"
+    status: pass
+  - summary: |
+      Проверка наименований фильтра "Производитель"
+    status: fail
+  - summary: |
+      Корректная работа фильтра "В наличии"
+    status: fail
+  - summary: |
+      Корректная работа фильтра "Цена"
+    status: pass
+  - summary: |
+      Корректная работа смены языка
+    status: fail
+  - summary: |
+      Корректная работа SPA
+    status: fail
+  - summary: |
+      Корректная работа кроссбраузерности в Yandex браузере
+    status: pass
+  - summary: |
+      Корректная работа кроссбраузерности в Chrome браузере
+    status: pass
+  - summary: |
+      Корректная работа адаптивности
+    status: fail
+  - summary: |
+      Корректная работа отправки формы заказа
+    status: fail
+  - summary: |
+      Корректная работа кнопки формы заказа "Закрыть"
+    status: pass
+  - summary: |
+      Корректная работа кнопки "Х"(закрыть форму) формы заказа
+    status: fail
+  - summary: |
+      Оплата заказа
+    status: fail
+  - summary: |
+      Нельзя добавлять товар в корзину которого нет в наличии
+    status: fail
+  - summary: |
+      Нельзя оформить товар которого нет в наличии
+    status: fail
 bugreports:
   - summary: |
       При переходе в магазин появляется ссылка
     environment: |
       Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
       ОС Windows 10  05.‎24
-    steps-to-reproduce: |
-      1. Открыть страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
-    expected-result: |
+    steps-to-reproduce: >
+      1. Открыть страницу
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app
+    expected-result: >
       При переходе по ссылке, открывается страница интернет магазина
-      На странице присутсвтуют изображения товаров, а так же прочие функциональные атрибуты, которые относятся непосредственно к магазину
-    actual-result: |  
+      На странице присутствуют изображения товаров, а так же прочие функциональные атрибуты, которые относятся непосредственно к магазину
+    actual-result: >
       При переходе по ссылке, открывается страница интернет магазина и появляется ссылка, которая частично перекрывает контент
       Ошибка изображена на скриншоте bug.png
-      
-  - summary: |
-      Корректное отображение продуктов на всех страницах
-    status: pass
-
-  - summary: |
-      Корректная работа кнопок "Следующая" и "Предыдущая"
-    status: pass
-
-  - summary: |
-      Информация о продукте на странице магазина схожа с информацией о продукте при открытии продукта
-    status: pass  
-
-  - summary: |
-      Корректная работа добавления продукта в корзину
-    status: pass
-
-  - summary: |
-      Добавление выше указанного количества продукта в корзину
-    status: pass  
-
-  - summary: |
-      Проверить, что цена и скидка товара идентична при переходе в сам товар и присутствует рейтинг товара
-    status: pass  
-
-  - summary: |
-      Корректная работа перехода в корзину
-    status: pass
-
-  - summary: |
-      Корректная работа добавления всех товаров в корзину
-    status: pass
-
-  - summary: |
-      Корректная работа отображения цен и скидки для всех продуктов
-    status: pass  
-
-  - summary: |
-      Корректная работа удаления продукта из корзины
-    status: pass 
-
-  - summary: |
-      Корректная работа очистки продукта(ов) из корзины
-    status: fail  
-
-bugreports:
   - summary: |
       Не очищает корзину
     environment: |
       Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
       ОС Windows 10  05.‎24
-    steps-to-reproduce: |
-      1. Открыть страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
+    steps-to-reproduce: >
+      1. Открыть страницу
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app
       2. Добавить товары в корзину
       3. Перейти в корзину
       4. Нажать кнопку "Очистить корзину"
       5. Вернуться на главную страницу, нажать кнопку "Магазин"
-    expected-result: |
-      После очистки корзины, корзина должна быть пустой при возвращении на страницу магазина
+    expected-result: >
+      После очистки корзины, корзина должна быть пустой при
+      возвращении на страницу магазина
     actual-result: |
-       Товары все еще присутствуют в корзине после ее очистки
-
-  - summary: |
-      Корректная форма оформления заказа
-    status: pass
-
-  - summary: |
-      Корректная работа кнопки "Продолжить покупки"
-    status: pass  
-
-  - summary: |
-      Корректная работа поиска продуктов
-    status: pass 
-
-  - summary: |
-      Корректная работа фильтра "Категории"
-    status: pass
-
-  - summary: |
-      Корректная работа фильтра "Производитель"
-    status: pass
-
-  - summary: |
-      Проверка наименований фильтра "Производитель"
-    status: fail 
-
-bugreports: []
-
-  - summary: |
-      Корректная работа фильтра "В наличии"
-    status: fail
-
-bugreports:
+      Товары все еще присутствуют в корзине после ее очистки
   - summary: |
       Checkbox "В наличии" не корректно выполняет свою функцию
     environment: |
       Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
       ОС Windows 10  05.‎24
-    steps-to-reproduce: |
-      1. Открыть страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
+    steps-to-reproduce: >
+      1. Открыть страницу
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app
       2. Убрать галочку в checkbox в "Наличии"
       3. Применить изменения на всех страницах
-    expected-result: |
+    expected-result: >
       При снятии галочки с checkbox "В наличии", товары в наличии должны "исчезнуть" со страницы
-    actual-result: |
+    actual-result: >
       Товары которые есть в наличии, остаются на странице даже после снятия галочки в checkbox " В наличии"
-      
-  - summary: |
-      Корректная работа фильтра "Цена"
-    status: pass   
-
-  - summary: |
-      Корректная работа смены языка
-    status: fail  
-
- bugreports:
   - summary: |
       При нажатии кнопки "Магазин" происходит изменения языка
     environment: |
       Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
       ОС Windows 10  05.‎24
-    steps-to-reproduce: |
+    steps-to-reproduce: >
       1. Открыть страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
       2. Изменить язык на русский
       3. Нажать кнопку "Магазин"
-    expected-result: |
-      При изменении языка, язык не должен изменяться при нажатии на активные кнопки
-    actual-result: |   
-      При изменении языка на русский, язык изменяется на английский при нажатии на кнопку "Магазин"
-
-  - summary: |
-      Корректная работа SPA
-    status: fail   
-
- bugreports:
+    expected-result: >
+      При изменении языка, язык не должен изменяться при нажатии на
+      активные кнопки
+    actual-result: >
+      При изменении языка на русский, язык изменяется на английский при
+      нажатии на кнопку "Магазин"
   - summary: |
       При нажатии кнопки "Магазин" происходит перезагрузка страницы
     environment: |
       Google Chrome   126.0.6478.183 (Официальная сборка) (64 бит)
       ОС Windows 10  05.‎24
-    steps-to-reproduce: |
-      1. Открыть страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
+    steps-to-reproduce: >
+      1. Открыть страницу
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app
       2. Нажать кнопку "Магазин"
     expected-result: |
       При использовании активных кнопок страница не должна перезагружаться
-    actual-result: |   
-       При нажатии кнопки "Магазин" происходит перезагрузка страницы
-
-  - summary: |
-      Корректная работа кроссбраузерности в Yandex браузере
-    status: pass
-
-  - summary: |
-      Корректная работа кроссбраузерности в Chrome браузере
-    status: pass
-
-
-  - summary: |
-      Корректная работа адаптивности
-    status: fail  
-
- bugreports: []
-
-  - summary: |
-      Корректная работа отправки формы заказа
-    status: fail  
-
- bugreports: []
-
-  - summary: |
-      Корректная работа кнопки формы заказа "Закрыть"
-    status: pass
-
-  - summary: |
-      Корректная работа кнопки "Х"(закрыть форму) формы заказа
-    status: fail  
-
- bugreports: []
-
-  - summary: |
-      Оплата заказа
-    status: fail  
-
- bugreports: []
-  
-  - summary: |
-      Нельзя добавлять товар в корзину которого нет в наличии
-    status: fail  
-
- bugreports: []
-
-  - summary: |
-      Нельзя оформить товар которого нет в наличии
-    status: fail  
-
- bugreports: []
+    actual-result: |
+      При нажатии кнопки "Магазин" происходит перезагрузка страницы
