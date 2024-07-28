@@ -76,6 +76,7 @@
     status: fail
 
 bugreports:
+
   - summary: |
       При переходе в магазин появляется ссылка
     environment: |
